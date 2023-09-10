@@ -1,0 +1,103 @@
+body{
+  background-color: rgb(224, 224, 148);
+}
+
+
+.topnav {
+    background-color:orangered;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ff0000;
+    color: black;
+  }
+  .topnav a.active {
+    background-color:orange;
+    color: white;
+  }
+  
+h1{
+  border: 4px double orange;
+    color: orangered;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px black;
+    letter-spacing: 6px;
+}
+.container {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    display: block;
+  }
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:orangered;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  p{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    border: 5px solid orangered;
+    border-radius: 5%;
+  }
+table{
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+th{
+  border: 10px inset orangered;
+  border-radius: 3%;
+  
+}
+td{
+  border: 5px inset orange;
+}
+li{
+  letter-spacing: 1px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
